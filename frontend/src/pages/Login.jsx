@@ -60,7 +60,7 @@ const Login = () => {
           <p className="mt-2 text-gray-600">Sign in to start bidding on antiques</p>
         </div>
 
-        {/* Demo Login Buttons */}
+        {/* Demo Login Buttons
         <div className="bg-blue-50 p-4 rounded-lg">
           <p className="text-sm text-blue-800 mb-3 font-medium">Demo Accounts:</p>
           <div className="space-y-2">
@@ -79,7 +79,7 @@ const Login = () => {
               User Demo (user@antico.com)
             </button>
           </div>
-        </div>
+        </div> */}
 
         {/* Login Form */}
         <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
