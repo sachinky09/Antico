@@ -11,6 +11,7 @@ const CatalogPage = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [statusFilter, setStatusFilter] = useState('all');
 
+  
   useEffect(() => {
     fetchProducts();
   }, []);

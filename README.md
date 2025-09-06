@@ -213,6 +213,3 @@ The application is ready for deployment to platforms like:
 - **Frontend**: Vercel, Netlify, GitHub Pages
 - **Database**: Supabase (already cloud-hosted)
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
