@@ -1,7 +1,4 @@
-import dotenv from 'dotenv';
-dotenv.config();
-
-const API_BASE_URL = process.env.REACT_APP_API_BASE_URL;
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 class ApiClient {
   constructor(baseURL) {
     this.baseURL = baseURL;
