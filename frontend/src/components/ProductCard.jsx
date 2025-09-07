@@ -67,13 +67,13 @@ const ProductCard = ({ product, showInterests = false, interestCount = 0, onInte
           <div className="flex items-center text-primary-600">
             <DollarSign className="h-4 w-4 mr-1" />
             <span className="font-semibold">₹{product.base_price}</span>
-            <span className="text-xs text-gray-500 ml-1">base</span>
+            <span className="text-xs text-gray-500 ml-1">Base</span>
           </div>
           
           {showInterests && (
             <div className="flex items-center text-gray-500">
               <Users className="h-4 w-4 mr-1" />
-              <span className="text-sm">{interestCount} interested</span>
+              <span className="text-sm">{interestCount} Interested</span>
             </div>
           )}
         </div>
