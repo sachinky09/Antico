@@ -66,7 +66,7 @@ const ProductCard = ({ product, showInterests = false, interestCount = 0, onInte
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center text-primary-600">
             <DollarSign className="h-4 w-4 mr-1" />
-            <span className="font-semibold">${product.base_price}</span>
+            <span className="font-semibold">₹{product.base_price}</span>
             <span className="text-xs text-gray-500 ml-1">base</span>
           </div>
           
